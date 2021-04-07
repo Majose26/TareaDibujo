@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujo SVG</title>
+</head>
+<body bgcolor="black">
+    <svg width=1000, height=1300>
+        <line x1=450 y1=400 x2=500  y2=800 stroke="white"></line>
+        <line x1=400 y1=530 x2=500  y2=800 stroke="white"></line>
+        <defs>
+            <radialGradient id="rad1" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#F2F5A9"></stop>
+                <stop offset="1" stop-color="yellow"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=400 cy=450 r=90 fill="url(#rad1)"></circle>
+
+        <line x1=500 y1=200 x2=500  y2=800 stroke="white"></line>
+        <defs>
+            <radialGradient id="rad2" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#E6E6E6"></stop>
+                <stop offset="1" stop-color="#848484"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=500 cy=200 r=50 fill="url(#rad2)"></circle>
+
+        <line x1=650 y1=300 x2=500  y2=800 stroke="white"></line>
+        <defs>
+            <radialGradient id="rad3" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="aqua"></stop>
+                <stop offset="1" stop-color="blue"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=650 cy=330 r=80 fill="url(#rad3)"></circle>
+        <line x1=650 y1=450 x2=500  y2=800 stroke="white"></line>
+        <line x1=540 y1=500 x2=500  y2=800 stroke="white"></line>
+        <defs>
+            <radialGradient id="rad4" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#81F781"></stop>
+                <stop offset="1" stop-color="green"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=550 cy=400 r=80 fill="url(#rad4)"></circle>
+        <defs>
+            <radialGradient id="rad5" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#F78181"></stop>
+                <stop offset="1" stop-color="red"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=450 cy=330 r=80 fill="url(#rad5)"></circle>
+        <line x1=520 y1=530 x2=500  y2=800 stroke="white"></line>
+        <defs>
+            <radialGradient id="rad6" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#D0A9F5"></stop>
+                <stop offset="1" stop-color="purple"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=500 cy=480 r=60 fill="url(#rad6)"></circle>
+        <defs>
+            <radialGradient id="rad7" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#F5A9F2"></stop>
+                <stop offset="1" stop-color="#FE2EF7"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=650 cy=480 r=50 fill="url(#rad7)"></circle>
+        <line x1=580 y1=640 x2=500  y2=800 stroke="white"></line>
+        <defs>
+            <radialGradient id="rad8" cx="50%" cy="50%" r="75%" fx="40%" fy="20%">
+                <stop offset="0" stop-color="#F5DA81"></stop>
+                <stop offset="1" stop-color="#FF8000"></stop>
+            </radialGradient>
+            </defs>
+        <circle cx=600 cy=600 r=50 fill="url(#rad8)"></circle>
+
+        <image xlink:href="eva.png" x=140 y=60 height="200" width="200"></image>
+
+        <defs>
+        <radialGradient id="rad10" cx="10%" cy="10%" r="25" fx="10%" fy="20%">
+            <stop offset="0" stop-color="#FA5858"></stop>
+            <stop offset="0.010" stop-color="#8A2908"></stop>
+            <stop offset="0.040" stop-color="#FE2E2E"></stop>
+            <stop offset="0.050" stop-color="#8A2908"></stop>
+            <stop offset="0.1" stop-color="#FE2E2E"></stop>
+            <stop offset="0.2" stop-color="#B45F04"></stop>
+        </radialGradient>
+        </defs>
+        <circle cx=500 cy=1600 r=600 fill="url(#rad10)"></circle>
+
+
+        <circle cx=1 cy=20 r=5 fill="white"></circle>
+        <circle cx=40 cy=150 r=5 fill="white"></circle>
+        <circle cx=90 cy=260 r=5 fill="white"></circle>
+        <circle cx=900 cy=300 r=5 fill="white"></circle>
+        <circle cx=780 cy=900 r=5 fill="white"></circle>
+        <circle cx=450 cy=20 r=5 fill="white"></circle>
+        <circle cx=800 cy=700 r=5 fill="white"></circle>
+        <circle cx=130 cy=700 r=5 fill="white"></circle>
+        <circle cx=20 cy=800 r=5 fill="white"></circle>
+        <circle cx=40 cy=990 r=5 fill="white"></circle>
+        <circle cx=670 cy=790 r=5 fill="white"></circle>
+        <circle cx=150 cy=880 r=5 fill="white"></circle>
+        <circle cx=900 cy=900 r=5 fill="white"></circle>
+        <circle cx=600 cy=700 r=5 fill="white"></circle>
+        <circle cx=970 cy=500 r=5 fill="white"></circle>
+        <circle cx=960 cy=50 r=5 fill="white"></circle>
+        <circle cx=160 cy=500 r=5 fill="white"></circle>
+        <circle cx=980 cy=800 r=5 fill="white"></circle>
+        <circle cx=600 cy=900 r=5 fill="white"></circle>
+        <circle cx=600 cy=50 r=5 fill="white"></circle>
+        <circle cx=150 cy=90 r=5 fill="white"></circle>
+
+        <line x1=500 y1=800 x2=490  y2=820 stroke="white"></line>
+        <line x1=500 y1=800 x2=500  y2=820 stroke="white"></line>
+        <line x1=500 y1=800 x2=510  y2=820 stroke="white"></line>
+        <line x1=500 y1=800 x2=480  y2=820 stroke="white"></line>
+        <line x1=500 y1=800 x2=520  y2=820 stroke="white"></line>
+        <line x1=500 y1=800 x2=500  y2=840 stroke="white"></line>
+        <line x1=500 y1=800 x2=510  y2=840 stroke="white"></line>
+        <line x1=500 y1=800 x2=520  y2=840 stroke="white"></line>
+        <line x1=500 y1=800 x2=480  y2=840 stroke="white"></line>
+
+
+        
+
+        <image xlink:href="walle.png" x=230 y=600 width="300" height="500">
+
+</svg>
+</body>
+</html>
